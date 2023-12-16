@@ -27,25 +27,17 @@ export default function ChatSection() {
     id: 'default-msg-0',
     content: `<div style="display: flex; align-items: flex-start; justify-content: space-between;">
       <div style="flex: 3; min-width: 0;">
-        <p>Welcome to rUv Bot! Providing insights about Reuven Cohen, aka rUv - think groove in innovation. Here are some quick links:</p>
+        <p>Welcome to MomoBot! I was designed to help you know better Marcos Acosta as a professional. Here are some quick links:</p>
         <ul>
-          <li><strong>Instagram</strong>: <a href="https://www.instagram.com/ruv">ruv</a></li>
-          <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/reuvencohen/">Reuven Cohen</a></li>
-          <li><strong>GitHub</strong>: <a href="https://github.com/ruvnet/">ruvnet</a></li>
+          <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/marcosgacosta/">Marcos Acosta</a></li>
+          <li><strong>GitHub</strong>: <a href="https://github.com/marcosgacosta/">marcosgacosta</a></li>
         </ul>
-        <p>Discover more about rUv with these commands:</p>
+        <p>Discover more about Marcos with these commands:</p>
         <ul>
           <li><code>/resume</code> (date/topic/range)</li>
           <li><code>/facts</code></li>
         </ul>
-        <p>Ask a question about rUv or explore these GPT projects:</p>
-        <ul>
-          <li><a href="https://chat.openai.com/g/g-EznQie7Yv-u-s-tax-bot">Tax Bot</a></li>
-          <li><a href="https://chat.openai.com/g/g-FgwxubVpf-magic">Magic</a></li>
-          <li><a href="https://chat.openai.com/g/g-MmU2vf2RA-gpt-api-advisor">GPT API Advisor</a></li>
-          <li><a href="https://chat.openai.com/g/g-2idGwDJSA-o-ai-plugin-creator">AI Plugin Creator</a></li>
-        </ul>
-        <p>Feel free to ask me a question about rUv!</p>
+        <p>Feel free to ask me a question about Marcos!</p>
       </div>
       <div style="flex: 2; text-align: right; padding-left: 20px;">
         <img src="https://ucarecdn.com/4edf9b28-19a6-45be-b94b-cc302671fa68/" alt="Image" style="max-width: 100%; height: auto; border-radius: 10px;">
