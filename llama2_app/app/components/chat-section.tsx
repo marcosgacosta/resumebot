@@ -27,7 +27,7 @@ export default function ChatSection() {
     id: 'default-msg-0',
     content: `<div style="display: flex; align-items: flex-start; justify-content: space-between;">
       <div style="flex: 3; min-width: 0;">
-        <p>Welcome to MomoBot! I was designed to help you know better Marcos Acosta as a professional. Here are some quick links:</p>
+        <p>Welcome to MomoBot, a service of MomoTech! I was designed to help you know better Marcos Acosta as a professional. Here are some quick links:</p>
         <ul>
           <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/marcosgacosta/">Marcos Acosta</a></li>
           <li><strong>GitHub</strong>: <a href="https://github.com/marcosgacosta/">marcosgacosta</a></li>
