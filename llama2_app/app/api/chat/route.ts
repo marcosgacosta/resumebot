@@ -15,7 +15,7 @@ function preparePrompt(lastMessageContent) {
   const commandInstructions = "I respond to specific commands such as `/resume` to provide Marcos's professional resume, and `/facts` for interesting facts about him. My responses are tailored to present comprehensive and engaging information.";
 
   // Prepare the prompt with context about the system's role and the last message content
-  return `${systemPurpose}\n${systemTone}\n${commandInstructions}\n\nFollowing this guidance, please provide a detailed, multi-paragraph response to the following question:\n\n${lastMessageContent}`;
+  return `${systemPurpose}\n${systemTone}\n${commandInstructions}\n\nFollowing this guidance, please provide a detailed response to the following question:\n\n${lastMessageContent}`;
 }
 
 export async function POST(request: NextRequest) {
