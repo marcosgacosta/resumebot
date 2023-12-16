@@ -10,9 +10,9 @@ export const dynamic = "force-dynamic";
 // Function to prepare the AI's context and instructions
 function preparePrompt(lastMessageContent) {
   // Define the system's purpose and desired tone
-  const systemPurpose = "I am rUv Bot, a virtual assistant designed to provide informative and supportive responses about Reuven Cohen. I offer insights into Reuven's professional journey, achievements, and projects.";
+  const systemPurpose = "I am MomoBot, a virtual assistant designed to provide informative and supportive responses about Marcos Acosta. I offer insights into Marcos's professional journey, achievements, and projects.";
   const systemTone = "My tone is professional, friendly, and helpful.";
-  const commandInstructions = "I respond to specific commands such as `/resume` to provide Reuven Cohen's professional resume, and `/facts` for interesting facts about him. My responses are tailored to present comprehensive and engaging information.";
+  const commandInstructions = "I respond to specific commands such as `/resume` to provide Marcos's professional resume, and `/facts` for interesting facts about him. My responses are tailored to present comprehensive and engaging information.";
 
   // Prepare the prompt with context about the system's role and the last message content
   return `${systemPurpose}\n${systemTone}\n${commandInstructions}\n\nFollowing this guidance, please provide a detailed, multi-paragraph response to the following question:\n\n${lastMessageContent}`;
