@@ -40,7 +40,7 @@ export default function ChatSection() {
         <p>Feel free to ask me a question about Marcos!</p>
       </div>
       <div style="flex: 2; text-align: right; padding-left: 20px;">
-        <img src="https://ucarecdn.com/4edf9b28-19a6-45be-b94b-cc302671fa68/" alt="Image" style="max-width: 100%; height: auto; border-radius: 10px;">
+        <img src="https://github.com/marcosgacosta/resumebot/blob/main/llama2_app/public/momo.jpg?raw=true" alt="Image" style="max-width: 100%; height: auto; border-radius: 10px;">
       </div>
     </div>`,
     role: 'system',
